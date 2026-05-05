@@ -8,8 +8,8 @@ Meu primeiro rice no arch.
 # Instalação
 
 ```bash
-git clone https://github.com/Jao-Dev/rice-moccha.git ~/dotfiles
-cd ~/dotfiles/dotfiles
+git clone https://github.com/Jao-Dev/dotfiles.git
+cd ~/dotfiles/
 ./install.sh
 ```
 Altere a config de monitor do hyprland.conf
