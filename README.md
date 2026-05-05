@@ -2,6 +2,9 @@
 
 Meu primeiro rice.
 
+![image alt](https://github.com/Jao-Dev/dotfiles/blob/9c22bf5aa0db5ca41881b103b7a42a4557b6ad7a/rice1.png)
+![image alt](https://github.com/Jao-Dev/dotfiles/blob/9c22bf5aa0db5ca41881b103b7a42a4557b6ad7a/rice2.png)
+
 # Instalação
 
 ```bash
