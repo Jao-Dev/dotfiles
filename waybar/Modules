@@ -98,4 +98,12 @@
 	"on-click": "kitty btop",
 },
 
+"custom/updates": {
+    "exec": "pacman -Qu 2>/dev/null | wc -l",
+    "interval": 600,
+    "format": "♻ {} │",
+    "tooltip-format": "{} pactoes para atualizar",
+		"on-click": "kitty -e bash -c 'sudo pacman -Syu; exec bash'"
+},
+
 }

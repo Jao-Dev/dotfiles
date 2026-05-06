@@ -8,7 +8,7 @@
     "margin-top": 0, 
     "modules-left": [ "hyprland/workspaces", "mpris", "custom/pacman"],
     "modules-center": [ "clock" ],
-    "modules-right": [ "cpu", "bluetooth", "network", "pulseaudio", "tray" ],
+    "modules-right": [ "custom/updates", "cpu", "bluetooth", "network", "pulseaudio", "tray" ],
     "sway/window": {
         "max-length": 100
     },

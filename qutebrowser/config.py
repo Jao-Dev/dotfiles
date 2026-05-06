@@ -20,7 +20,8 @@ c.url.start_pages = ["https://8bitdash.com/dashboard"]
 
 c.url.searchengines = {
         "DEFAULT": "https://duckduckgo.com/?q={}",
-        "yt": "https://www.youtube.com/results?search_query={}"
+        "yt": "https://www.youtube.com/results?search_query={}",
+        "acw": "https://man.archlinux.org/search?q={}",
 
 }
 
