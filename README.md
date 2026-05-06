@@ -1,6 +1,6 @@
 # Dotfiles
 
-Meu primeiro rice no arch.
+Meu rice no arch.
 
 ![image alt](https://github.com/Jao-Dev/dotfiles/blob/9c22bf5aa0db5ca41881b103b7a42a4557b6ad7a/rice1.png)
 ![image alt](https://github.com/Jao-Dev/dotfiles/blob/9c22bf5aa0db5ca41881b103b7a42a4557b6ad7a/rice2.png)
@@ -19,38 +19,31 @@ Altere a config de monitor do hyprland.conf
 ```bash
 sudo pacman -S hyprland hyprpaper
 ```
-### Kitty, Waybar, Neovim, Flatpak, git, btop, speedtest
+### Flatpak, yay, Kitty, Waybar, Neovim, git, btop, speedtest
 ```bash
-sudo pacman -S pacman kitty waybar neovim flatpak git btop speedtest-cli
+sudo pacman -S pacman flatpak yay kitty waybar neovim git btop speedtest-cli
 ```
-### Gerenciador de tema, tema, fonte, icones
+### Gerenciador de tema, fonte
 ```bash
-sudo pacman -S nwg-look catppuccin-gtk-theme-mocha ttf-0xproto-nerd tela-circle-icon-theme-blue
+sudo pacman -S nwg-look ttf-0xproto-nerd
 ```
 
-### Thunar + plugins, p/ arquivos zipados
+### superfile, + plugins p/ arquivos zipados
 ```bash
-sudo pacman -S thunar thunar-archive-plugin thunar-media-tags-plugin thunar-shares-plugin thunar-vcs-plugin thunar-volman
-
-sudo pacman -S 7zip, zip, unrar, unzip
+sudo pacman -S superfile 7zip, zip, unrar, unzip
 ```
 
 ## Utilitários que uso
-### Brave Browser, VLC, Bluejay, PulseAudio Volume Control, ProntonPlus, Relógios, editor TXT, Visualizador de imagens
+### Brave Browser, VLC, ProntonPlus, Relógios, Bluetui, PulseAudio Volume Control, pix (imagens), slurp (prints)
 ```bash
 curl -fsS https://dl.brave.com/install.sh | sh
-flatpak install flathub org.videolan.VLC
-flatpak install flathub io.github.ebonjaeger.bluejay
-sudo pacman -S pacman pavucontrol
-flatpak install flathub com.vysp3r.ProtonPlus
-flatpak install flathub org.gnome.clocks
-flatpak install flathub org.gnome.TextEditor
-flatpak install flathub org.gnome.Loupe
+flatpak install flathub org.videolan.VLC flathub com.vysp3r.ProtonPlus org.gnome.clocks org.gnome.clocks
+sudo pacman -S pacman bluetui pavucontrol pix slurp
 ```
 
 # Comandos básicos
 ```
 SUPER + ENTER = abrir terminal
-SUPER + / = lista de binds personalizadas
+SUPER + / = lista de binds básicos personalizados
 SUPER + . = abrir o hyprland.conf
 ```
